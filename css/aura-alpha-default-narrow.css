@@ -1,0 +1,10 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+
+ .page-join div#region-content,
+.page-comingsoon div#region-content{width: 360px;}
+
+ .front div#zone-content,
+.page-join div#zone-content{margin-left: 22%;}

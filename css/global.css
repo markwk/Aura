@@ -1,0 +1,119 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,800);
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+body {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: 50% 0%;
+}
+body {
+	font-size: 75%;
+	background: blue url(../images/lightblue_wallpaper.jpg) no-repeat top center fixed;
+	color: #000;
+	margin: 0;
+	font-size: 14px;
+	font-family: 'Open Sans', "Trebuchet MS", Trebuchet, arial, sans-serif;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center top;
+}
+h1 {
+	font-size: 25px;
+	font-family: 'Open Sans', "Trebuchet MS", Trebuchet, arial, sans-serif;
+}
+div#region-content{
+	background:gray url(../images/boxtile.png) repeat;
+	color:white;
+	padding:25px;
+	border: 2px solid black;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+border: 1px solid #68838A;
+margin:10px;
+}
+.page-join div#region-content,
+.page-comingsoon div#region-content{margin: 25px;}
+div#region-menu-extra ul.menu{float:right;}
+#block-system-powered-by {
+	background: url(../images/powered-blue.png) no-repeat;
+	height:42px;
+	width: 135px;
+	margin:0 auto;
+}
+#block-system-powered-by .content{margin-top:20px;}
+#block-system-powered-by span{
+	display: none;
+}
+
+form#signup-share-track-join{
+	/*background:gray url(../images/boxtile.png) repeat;
+	color:white;
+	padding:25px;
+	border: 2px solid black;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+width:360px;
+-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+border: 1px solid #68838A;*/
+}
+form#signup-share-track-join-block-form label[for='edit-mail'],
+form#signup-share-track-join label[for='edit-mail']{display:none;}
+form#signup-share-track-join-block-form input#edit-mail,
+form#signup-share-track-join input#edit-mail{
+	float: left;
+display: inline;
+background: white;
+border: 0;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+padding: 9px 11px;
+font-size: 14px;
+color: #999;
+width: 230px;
+margin: 1px 5px 0 5px;
+}
+form#signup-share-track-join-block-form input[type="submit"],
+form#signup-share-track-join input[type="submit"]{
+display: inline-block;
+color: white;
+font-size: 14px;
+text-transform: uppercase;
+text-shadow: -1px -1px 0 rgba(0, 0, 0, .5);
+background: #D5ECBE;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D5ECBE), color-stop(3%,#96D05C), color-stop(49%,#84C841), color-stop(51%,#79C32F), color-stop(100%,#79C32F));
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5ecbe', endColorstr='#79c32f',GradientType=0 );
+cursor: pointer;
+border: 2px solid black;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+font-weight: bold;
+}
+form#signup-share-track-join div.addthis_toolbox{margin-left: 60px;}
+
+div.sst_thanks,
+div.sst_sign_up_now,
+div.sst_count,
+div.sst_more_people{padding-bottom: 10px;}
+
+.region-menu-extra-inner a:link, .region-menu-extra-inner a:visited{color: white;}
+.region-menu-extra-inner ul li.leaf {display:inline;}
+.region-menu-extra-inner ul.links li::after{
+	content: " +";
+	color: #717171;
+}
+
+.page-comingsoon h1#page-title{display:none;}
+
+.logo-img {float: none; text-align: center;}

@@ -1,0 +1,6 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+ .page-join div#region-content,
+.front div#region-content{width: 360px;}
+ 
+ .front div#zone-content,
+ .page-join div#zone-content{margin-left: 32%;}
