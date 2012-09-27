@@ -1,0 +1,32 @@
+/* Color module styles */
+
+/* ==================================== *
+ * Container background & border colors *
+ * ==================================== */
+ 
+		body {
+		  color: #111111; 							/* text color */
+		  background-color: #aaaaaa; 		/* userbg color */
+		}
+		
+		.html {
+		  background-color: #dedede; 		/* base color */
+		}
+		
+		#region-content {
+			background-color: #ffffff; 		/* contentbg color */
+		}
+		
+/* ==================================== *
+ *         Text & Link Colors           *
+ * ==================================== */
+ 	
+	
+	/* Default Links
+	---------------- */
+		a, 
+		a:link,
+		a:visited {
+			border-color: #666666;	/* link color */
+		  color: #666666; 	/* link color */
+		}

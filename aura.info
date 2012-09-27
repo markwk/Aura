@@ -7,6 +7,7 @@ base theme = 'omega'
 version = '1.x'
 scripts[0] = 'js/script.js'
 
+
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
 regions[content] = 'Content'
@@ -27,9 +28,14 @@ zones[branding] = 'Branding'
 zones[menu] = 'Menu'
 zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
+
 css[global.css][name] = 'Your custom global styles'
 css[global.css][description] = 'This file holds all the globally active custom CSS of your theme.'
 css[global.css][options][weight] = '10'
+css[colors.css][name] = 'Your colors styles'
+css[colors.css][description] = 'This file holds all the colors CSS of your theme.'
+css[colors.css][options][weight] = '11'
+stylesheets[all][] = css/colors.css
 
 settings[toggle_logo] = '1'
 settings[toggle_name] = '0'
@@ -329,3 +335,4 @@ settings[alpha_region_footer_full_position] = '0'
 settings[alpha_region_footer_full_css] = ''
 settings[alpha_region_footer_full_equal_height_element] = '0'
 settings[alpha_region_footer_full_equal_height_container] = '0'
+

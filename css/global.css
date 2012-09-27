@@ -2,91 +2,107 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
-body {
+/*body {
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: 50% 0%;
-}
+}*/
+
 body {
 	font-size: 75%;
-	background: blue url(../images/lightblue_wallpaper.jpg) no-repeat top center fixed;
-	color: #000;
+	//background-image: url(../images/lightblue_wallpaper.jpg) no-repeat top center fixed;
 	margin: 0;
 	font-size: 14px;
 	font-family: 'Open Sans', "Trebuchet MS", Trebuchet, arial, sans-serif;
-        -o-background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center top;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center top;
 }
+
+div#page {
+	margin-top: 15px;
+}
+
 h1 {
 	font-size: 25px;
 	font-family: 'Open Sans', "Trebuchet MS", Trebuchet, arial, sans-serif;
 }
-div#region-content{
-	background:gray url(../images/boxtile.png) repeat;
-	color:white;
+
+div#region-content {
+	//background-image: url(../images/boxtile.png) repeat;
 	padding:25px;
 	border: 2px solid black;
--moz-border-radius: 4px;
--webkit-border-radius: 4px;
-border-radius: 4px;
--moz-box-shadow: 1px 1px 1px rgba(0,0,0,.1);
--webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
-box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
-border: 1px solid #68838A;
-margin:10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+	border: 1px solid #68838A;
+	margin:10px;
 }
 .page-join div#region-content,
-.page-comingsoon div#region-content{margin: 25px;}
-div#region-menu-extra ul.menu{float:right;}
+.page-comingsoon div#region-content {
+	margin: 25px;
+}
+div#region-menu-extra ul.menu {
+	float:right;
+}
+
 #block-system-powered-by {
-	background: url(../images/powered-blue.png) no-repeat;
+	background-image: url(../images/powered-blue.png) no-repeat;
 	height:42px;
 	width: 135px;
 	margin:0 auto;
 }
-#block-system-powered-by .content{margin-top:20px;}
-#block-system-powered-by span{
+
+#block-system-powered-by .content {
+	margin-top:20px;
+}
+
+#block-system-powered-by span {
 	display: none;
 }
 
-form#signup-share-track-join{
+form#signup-share-track-join {
 	/*background:gray url(../images/boxtile.png) repeat;
 	color:white;
 	padding:25px;
 	border: 2px solid black;
--moz-border-radius: 4px;
--webkit-border-radius: 4px;
-border-radius: 4px;
-width:360px;
--moz-box-shadow: 1px 1px 1px rgba(0,0,0,.1);
--webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
-box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
-border: 1px solid #68838A;*/
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;*/
+	width:360px;
+	/*
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+	border: 1px solid #68838A;*/
 }
+
 form#signup-share-track-join-block-form label[for='edit-mail'],
 form#signup-share-track-join label[for='edit-mail']{display:none;}
 form#signup-share-track-join-block-form input#edit-mail,
-form#signup-share-track-join input#edit-mail{
+form#signup-share-track-join input#edit-mail {
 	float: left;
-display: inline;
-background: white;
-border: 0;
--moz-border-radius: 4px;
--webkit-border-radius: 4px;
-border-radius: 4px;
-padding: 9px 11px;
-font-size: 14px;
-color: #999;
-width: 230px;
-margin: 1px 5px 0 5px;
+	display: inline;
+	background: white;
+	border: 0;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 9px 11px;
+	font-size: 14px;
+	//color: #999;
+	width: 230px;
+	margin: 1px 5px 0 5px;
 }
+
 form#signup-share-track-join-block-form input[type="submit"],
 form#signup-share-track-join input[type="submit"]{
 display: inline-block;
-color: white;
 font-size: 14px;
 text-transform: uppercase;
 text-shadow: -1px -1px 0 rgba(0, 0, 0, .5);
@@ -100,20 +116,36 @@ border: 2px solid black;
 border-radius: 4px;
 font-weight: bold;
 }
-form#signup-share-track-join div.addthis_toolbox{margin-left: 60px;}
+
+form#signup-share-track-join div.addthis_toolbox {
+	margin-left: 60px;
+}
 
 div.sst_thanks,
 div.sst_sign_up_now,
 div.sst_count,
-div.sst_more_people{padding-bottom: 10px;}
-
-.region-menu-extra-inner a:link, .region-menu-extra-inner a:visited{color: white;}
-.region-menu-extra-inner ul li.leaf {display:inline;}
-.region-menu-extra-inner ul.links li::after{
-	content: " +";
-	color: #717171;
+div.sst_more_people {
+	padding-bottom: 10px;
 }
 
-.page-comingsoon h1#page-title{display:none;}
+.region-menu-extra-inner a:link, .region-menu-extra-inner a:visited {
+	//color: white;
+}
 
-.logo-img {float: none; text-align: center;}
+.region-menu-extra-inner ul li.leaf {
+	display:inline;
+}
+
+.region-menu-extra-inner ul.links li::after{
+	content: " +";
+	//color: #717171;
+}
+
+.page-comingsoon h1#page-title {
+	display:none;
+}
+
+.logo-img {
+	float: none;
+	text-align: center;
+}
