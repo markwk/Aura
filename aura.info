@@ -1,5 +1,5 @@
 name = 'aura'
-description = ''
+description = 'a Omega sub theme for ComingSoon Distro'
 core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'

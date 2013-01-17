@@ -13,7 +13,7 @@
 		  background-color: #dedede; 		/* base color */
 		}
 		
-		#region-content {
+		#region-content .region-inner {
 			background-color: #ffffff; 		/* contentbg color */
 		}
 		
